@@ -20,6 +20,12 @@ function searchAddressHandler(event: Event) {
         throw new Error('Could not fetch location!');
       }
       const coordinates = response.data.results[0].geometry.location;
+      const map = new google.maps.Map(document.getElementById('map')!, {
+        center: coordinates,
+        zoom: 8
+      });
+
+      new google.maps.Marker({ position: coordinates, map });
     })
     .catch(err => {
       alert(err.message);

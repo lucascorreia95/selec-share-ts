@@ -10,6 +10,11 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/googlemaps@^3.39.8":
+  version "3.39.8"
+  resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/@types/googlemaps/-/googlemaps-3.39.8.tgz#3bca2344e1b050425a7cce4411f8330dddb75540"
+  integrity sha1-O8ojROGwUEJafM5EEfgzDd23VUA=
+
 "@types/minimatch@*":
   version "3.0.3"
   resolved "https://artifactory.softplan.com.br/artifactory/api/npm/npm/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
